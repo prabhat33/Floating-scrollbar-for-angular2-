@@ -15,7 +15,11 @@ Package for floating scrollbar that can be used with Angular 2 and above
 </div>
 
  ngAfterViewInit(){
-   customScrollBar.scroll(document.getElementById("container"));
+    let options={
+      beautifyScroll:true, // set to TRUE if you want a beautiful scrollbar
+      scrollBarColor:"yellow", // scrollbar color for making it more beautiful, leave it blank or false
+    }
+   customScrollBar.scroll(document.getElementById("container"),options);
  }
 
 ```
