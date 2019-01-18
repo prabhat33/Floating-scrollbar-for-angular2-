@@ -1,5 +1,5 @@
 {
-  "name": "floating-scrollbar-for-angular2+",
+  "name": "floating-scrollbar-for-angular",
   "version": "1.0.0",
   "description": "Display an horizontal scrollbar at the bottom of the window if a div overflows the window height in your Angular 2+ application.",
   "main": "build/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/prabhat33/Floating-scrollbar-for-angular2-"
   },
   "keywords": [],
   "author": "Prabhat Giri",
